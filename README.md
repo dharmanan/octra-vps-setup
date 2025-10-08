@@ -124,7 +124,7 @@ komutunu kullanarak dosyayı açın ve daha önce aldığımız kendi cüzdan bi
 
 **JSON içeriği böyle görünecek:**    
 
-"priv": "buraya aldığınız keyi yazacaksınız"     
+"priv": "buraya aldığınız keyi yazacaksınız" (b64 formatında olanı yazacaksınız)    
 "addr": "buraya da sana verilen cüzdan adresini yazacaksınız"      
 
 ```bash
