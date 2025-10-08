@@ -129,6 +129,8 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 * Onaylamak için Y yazın ve Enter'a basın.
 
+[![Octra Görseli](images/5.1.png)](#)
+
 **5.2. Toplu Gönderme (Bulk Send)**   
 
 * 3 yazın ve Enter'a basın.
