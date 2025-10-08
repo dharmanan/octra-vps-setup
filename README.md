@@ -72,13 +72,12 @@ http://SUNUCU-IP-ADRESI:8888
 
 Ekranda çıkan bilgileri kaydedin, **kaybetmeyin**, bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 
-C. Portu Kapatma (ZORUNLU):
+**C. Portu Kapatma (ÖNEMLİ):**
 
-Bash
-
-# Terminalde Ctrl+C ile cüzdan sunucusunu durdurun.
+**Terminalde Ctrl+C ile cüzdan sunucusunu durdurun.**
+```bash
 sudo ufw delete allow 8888/tcp
-
+```
 
 
 ## 3. İstemci Kurulumu ve Yapılandırması
