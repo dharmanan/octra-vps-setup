@@ -25,3 +25,10 @@ sudo apt update && sudo apt install screen -y
 ## 2. Cüzdan Oluşturma ve Test Token'ı Alma
 A. Cüzdan Oluşturma
 Bu adımı VPS terminalinizde üzerinde yapmalısınız.
+
+# Gerekli ise bun paket yöneticisini kurun
+curl -fsSL [https://bun.sh/install](https://bun.sh/install) | bash
+export PATH="$HOME/.bun/bin:$PATH"
+
+# Cüzdan oluşturucu betiğini çalıştırın
+curl -fsSL [https://octra.org/wallet-generator.sh](https://octra.org/wallet-generator.sh) | bash
