@@ -107,8 +107,66 @@ Screen oturumunun içindeyken (yeni terminal penceresi açılacak):
 ./run.sh
 ```
 
+---
+
+## 5. İstemci Kullanımı (Menü İşlemleri)
+
+Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki menü seçenekleriyle etkileşime girebilirsiniz:
+
+**5.1. Normal İşlem Gönderme (Regular Transaction)**
+
+* 1 yazın ve Enter'a basın.
+
+* Alıcı adresini girin ve Enter'a basın.
+
+* Token miktarını girin ve Enter'a basın.
+
+* (Opsiyonel) Mesaj girin ve Enter'a basın.
+
+* Onaylamak için Y yazın ve Enter'a basın.
+
+5.2. Toplu Gönderme (Bulk Send)
+3 yazın ve Enter'a basın.
+
+Her satır için: adres > boşluk > miktar formatında girip Enter'a basın.
+
+Tüm alıcıları girdikten sonra, boş bir satırda Enter'a basın.
+
+Onaylamak için Y yazın ve Enter'a basın.
+
+5.3. Bakiyeyi Şifreleme (Encrypt Balance)
+4 yazın ve Enter'a basın.
+
+Miktarı girin ve Enter'a basın.
+
+Onaylamak için Y yazın ve Enter'a basın.
+
+5.4. Şifreli İşlem Gönderme (Send Encrypted Transaction)
+6 yazın ve Enter'a basın.
+
+Alıcı adresini girin ve Enter'a basın.
+
+Miktarı girin ve Enter'a basın.
+
+Onaylamak için Y yazın ve Enter'a basın.
+
+5.5. Bakiyeyi Çözme (Decrypt Balance)
+5 yazın ve Enter'a basın.
+
+Miktarı girin ve Enter'a basın.
+
+Onaylamak için Y yazın ve Enter'a basın.
+
+5.6. Özel Transferi Talep Etme (Claim Private Transfer)
+7 yazın ve Enter'a basın.
+
+Listeden transfer numarasını seçin ve Enter'a basın.
+
+---
+
 **Screen oturumundan ayrılın (detach):**
 
-İstemcinin arka planda çalışmaya devam etmesi için, klavyenizde Ctrl + A tuşlarına basın, hemen ardından D tuşuna basın. Bu, sizi ana terminal oturumunuza geri döndürecektir. Artık sunucu bağlantınızı kapatsanız bile arkada çalışmaya devam edecektir.
+İstemcinin arka planda çalışmaya devam etmesi için, klavyenizde Ctrl + A tuşlarına basın, hemen ardından D tuşuna basın. Bu, sizi ana terminal oturumunuza geri döndürecektir. Artık sunucu bağlantınızı kapatsanız bile arkada çalışmaya devam edecektir. `screen -ls`	ile mevcut screen oturumlarını listeler. `screen -r octra-client`	komutu ile arka planda çalışan octra-client oturumuna geri bağlanır ve screen içine girersiniz.
+
 
 
