@@ -19,6 +19,7 @@ Bu kurulum, Octra tarafından sağlanan komutlara dayanır ve testnet katılım�
 Eğer `screen` yüklü değilse, aşağıdaki komutla kurabilirsiniz (Debian/Ubuntu için):
 ```bash
 sudo apt update && sudo apt install screen -y
+sudo apt install unzip -y
 
 ```
 
@@ -27,7 +28,12 @@ A. Cüzdan Oluşturma
 
 Gerekli ise bun paket yöneticisini kurun
 ```bash
-curl -fsSL [https://bun.sh/install](https://bun.sh/install) | bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+PATH Değişkenini Güncelleyin:
+
+```bash
 export PATH="$HOME/.bun/bin:$PATH"
 ```
 
