@@ -41,7 +41,44 @@ Cüzdan oluşturucu işlemini çalıştırın
 ```bash
 curl -fsSL https://octra.org/wallet-generator.sh | bash
 ```
-Kaydetmeniz Gerekenler: Ekranda çıkan `priv` (özel anahtar) ve `addr` (adres) bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
+**Yüklemeye başlayacak ve şöyle bir uyarıyla duracak:**
+```bash
+starting wallet generator server...
+
+=== installation complete! ===
+wallet generator is running at http://localhost:8888
+to run again later, use: /root/.octra/wallet-generator
+to stop the wallet generator, press Ctrl+C
+```
+
+Bu aşama Ctrl + C'ye basarak durdurun ve tarayıcınızda erişim sağlamak için güvenlik duvarını açın.
+
+**A. Güvenlik Duvarını Açma:**
+
+
+
+**Sadece 8888 TCP portuna erişime izin ver**
+```bash
+sudo ufw allow 8888/tcp
+```
+
+**B. Tarayıcı Erişimi:**
+
+Kendi tarayıcınızı açın ve VPS'inizin IP adresini kullanarak bağlanın:
+
+http://SUNUCU-IP-ADRESI:8888   
+
+[![Octra Görseli](images/walt.png)](#)
+
+Ekranda çıkan bilgileri kaydedin, **kaybetmeyin**, bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
+
+C. Portu Kapatma (ZORUNLU):
+
+Bash
+
+# Terminalde Ctrl+C ile cüzdan sunucusunu durdurun.
+sudo ufw delete allow 8888/tcp
+
 
 
 ## 3. İstemci Kurulumu ve Yapılandırması
