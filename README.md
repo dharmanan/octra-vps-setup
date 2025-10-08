@@ -125,42 +125,47 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 * Onaylamak için Y yazın ve Enter'a basın.
 
-5.2. Toplu Gönderme (Bulk Send)
-3 yazın ve Enter'a basın.
+**5.2. Toplu Gönderme (Bulk Send)**   
 
-Her satır için: adres > boşluk > miktar formatında girip Enter'a basın.
+* 3 yazın ve Enter'a basın.
 
-Tüm alıcıları girdikten sonra, boş bir satırda Enter'a basın.
+* Her satır için: adres > boşluk > miktar formatında girip Enter'a basın.
 
-Onaylamak için Y yazın ve Enter'a basın.
+* Tüm alıcıları girdikten sonra, boş bir satırda Enter'a basın.
 
-5.3. Bakiyeyi Şifreleme (Encrypt Balance)
-4 yazın ve Enter'a basın.
+* Onaylamak için Y yazın ve Enter'a basın.
 
-Miktarı girin ve Enter'a basın.
+**5.3. Bakiyeyi Şifreleme (Encrypt Balance)**    
 
-Onaylamak için Y yazın ve Enter'a basın.
+* 4 yazın ve Enter'a basın.
 
-5.4. Şifreli İşlem Gönderme (Send Encrypted Transaction)
-6 yazın ve Enter'a basın.
+* Miktarı girin ve Enter'a basın.
 
-Alıcı adresini girin ve Enter'a basın.
+* Onaylamak için Y yazın ve Enter'a basın.
 
-Miktarı girin ve Enter'a basın.
+**5.4. Şifreli İşlem Gönderme (Send Encrypted Transaction)**   
 
-Onaylamak için Y yazın ve Enter'a basın.
+* 6 yazın ve Enter'a basın.
 
-5.5. Bakiyeyi Çözme (Decrypt Balance)
-5 yazın ve Enter'a basın.
+* Alıcı adresini girin ve Enter'a basın.
 
-Miktarı girin ve Enter'a basın.
+* Miktarı girin ve Enter'a basın.
 
-Onaylamak için Y yazın ve Enter'a basın.
+* Onaylamak için Y yazın ve Enter'a basın.
 
-5.6. Özel Transferi Talep Etme (Claim Private Transfer)
-7 yazın ve Enter'a basın.
+**5.5. Bakiyeyi Çözme (Decrypt Balance)**    
 
-Listeden transfer numarasını seçin ve Enter'a basın.
+* 5 yazın ve Enter'a basın.
+
+* Miktarı girin ve Enter'a basın.
+
+* Onaylamak için Y yazın ve Enter'a basın.    
+
+**5.6. Özel Transferi Talep Etme (Claim Private Transfer)**    
+
+* 7 yazın ve Enter'a basın.
+
+* Listeden transfer numarasını seçin ve Enter'a basın.
 
 ---
 
