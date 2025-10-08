@@ -36,6 +36,78 @@ curl -fsSL [https://octra.org/wallet-generator.sh](https://octra.org/wallet-gene
 ```
 Kaydetmeniz Gerekenler: Ekranda çıkan `priv` (özel anahtar) ve `addr` (adres) bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 
+
+## 3. İstemci Kurulumu ve Yapılandırması
+
+Bu adımları VPS terminalinizde gerçekleştirin:
+
+**İstemci Deposunu Klonlayın:**
+
+```bash
+
+git clone [https://github.com/octra-labs/octra_pre_client.git](https://github.com/octra-labs/octra_pre_client.git)
+cd octra_pre_client
+```
+
+**Sanal Ortam Kurulumu:**
+
+```bash
+
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**Bağımlılıkları Yükleyin:**
+
+```bash
+
+pip install -r requirements.txt
+```
+
+**Cüzdan Yapılandırmasını Hazırlayın:**
+
+```bash
+
+cp wallet.json.example wallet.json
+```
+
+**wallet.json Dosyasını Düzenleyin:**
+
+`nano wallet.json` komutunu kullanarak dosyayı açın ve daha önce aldığımız kendi cüzdan bilgilerinizle değiştirin:
+
+** JSON içeriği böyle görünecek:
+
+```bash
+{
+  "priv": "B64-private-key-buraya",
+  "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "rpc": "[https://octra.network](https://octra.network)"
+}
+```
+**(Nano'da: Kaydetmek için Ctrl + O sonra dosyayı kaydetmek için Enter'a basın ve çıkmak için Ctrl + X)**
+
+## 4. İstemciyi Screen Kullanarak Çalıştırma
+
+İstemcinin SSH oturumu kapansa bile çalışmaya devam etmesi için screen kullanılır. Sunucunuzda etkin olduğundan emin olun (source venv/bin/activate).
+
+**Yeni bir Screen oturumu başlatın:**
+
+```bash
+
+screen -S octra-client
+```
+
+**İstemciyi çalıştırın:**
+Screen oturumunun içindeyken (yeni terminal penceresi açılacak):
+
+```bash
+./run.sh
+```
+
+**Screen oturumundan ayrılın (detach):**
+
+İstemcinin arka planda çalışmaya devam etmesi için, klavyenizde Ctrl + A tuşlarına basın, hemen ardından D tuşuna basın. Bu, sizi ana terminal oturumunuza geri döndürecektir. Artık sunucu bağlantınızı kapatsanız bile arkada çalışmaya devam edecektir.
+
 ## B. Test Token'ı Alma
 Oluşturduğunuz cüzdan adresini kullanarak test token'ları (OCT) almak için resmi Octra Faucet (https://faucet.octra.network/) adresini ziyaret edin.
 
