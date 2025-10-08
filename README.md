@@ -75,9 +75,10 @@ cp wallet.json.example wallet.json
 
 `nano wallet.json` komutunu kullanarak dosyayı açın ve daha önce aldığımız kendi cüzdan bilgilerinizle değiştirin:
 
-** JSON içeriği böyle görünecek:**    
-"priv": "buraya aldığınız keyi yazacaksın"     
-"addr": "buraya da sana verilen cüzdan adresini yazacaksın"      
+**JSON içeriği böyle görünecek:**    
+
+"priv": "buraya aldığınız keyi yazacaksınız"     
+"addr": "buraya da sana verilen cüzdan adresini yazacaksınız"      
 
 ```bash
 {
