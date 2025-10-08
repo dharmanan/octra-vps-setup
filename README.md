@@ -3,7 +3,7 @@
 
 Bu rehber, Octra Testnet istemcisini bir Sanal Özel Sunucu (VPS) üzerine kurmak, yapılandırmak ve **GNU Screen** kullanarak SSH oturumundan bağımsız olarak arka planda çalıştırmak için gerekli adımları özetler.
 
-<img src="images/octra.png" alt="octra" style="max-width: 100%;">
+<img src="images/octra.jpeg" alt="octra" style="max-width: 100%;">
 
 ## ⚠️ ÖNEMLİ UYARI
 Bu kurulum, Octra tarafından sağlanan komutlara dayanır ve testnet katılımı amaçlıdır. Cüzdan özel anahtarlarınızı (priv) her zaman güvenli bir yerde saklayın.
