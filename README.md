@@ -87,7 +87,7 @@ sudo ufw delete allow 8888/tcp
 
 ```bash
 
-git clone [https://github.com/octra-labs/octra_pre_client.git](https://github.com/octra-labs/octra_pre_client.git)
+git clone https://github.com/octra-labs/octra_pre_client.git
 cd octra_pre_client
 ```
 
