@@ -19,3 +19,9 @@ Bu kurulum, Octra tarafından sağlanan komutlara dayanır ve testnet katılım�
 Eğer `screen` yüklü değilse, aşağıdaki komutla kurabilirsiniz (Debian/Ubuntu için):
 ```bash
 sudo apt update && sudo apt install screen -y
+
+```
+
+## 2. Cüzdan Oluşturma ve Test Token'ı Alma
+A. Cüzdan Oluşturma
+Bu adımı VPS terminalinizde üzerinde yapmalısınız.
