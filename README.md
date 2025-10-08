@@ -116,8 +116,11 @@ cp wallet.json.example wallet.json
 ```
 
 **`wallet.json` Dosyasını Düzenleyin:**
+```bash
+nano wallet.json
+```
 
-`nano wallet.json` komutunu kullanarak dosyayı açın ve daha önce aldığımız kendi cüzdan bilgilerinizle değiştirin:
+komutunu kullanarak dosyayı açın ve daha önce aldığımız kendi cüzdan bilgilerinizle değiştirin:
 
 **JSON içeriği böyle görünecek:**    
 
