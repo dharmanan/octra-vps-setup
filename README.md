@@ -153,7 +153,7 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 [![Octra Görseli](images/5.3.png)](#)
 
-**5.4. Şifreli İşlem Gönderme (Send Encrypted Transaction)**   
+**5.4. Şifreli İşlem Gönderme (Send Private Transaction)**   
 
 * 6 yazın ve Enter'a basın.
 
@@ -175,7 +175,7 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 [![Octra Görseli](images/5.5.png)](#)
 
-**5.6. Özel Transferi Talep Etme (Claim Private Transfer)**    
+**5.6. Transferi Talep Etme (Claim Transfer)**    
 
 * 7 yazın ve Enter'a basın.
 
