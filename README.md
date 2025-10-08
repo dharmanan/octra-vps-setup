@@ -115,7 +115,7 @@ Screen oturumunun içindeyken (yeni terminal penceresi açılacak):
 
 Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki menü seçenekleriyle etkileşime girebilirsiniz:
 
-![octra5](images/5.png)
+[![Octra Görseli](images/5.png)](#)
 
 **5.1. Normal İşlem Gönderme (Regular Transaction)**
 
