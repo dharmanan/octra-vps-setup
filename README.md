@@ -38,3 +38,6 @@ curl -fsSL [https://octra.org/wallet-generator.sh](https://octra.org/wallet-gene
 ```
 Kaydetmeniz Gerekenler: Ekranda çıkan `priv` (özel anahtar) ve `addr` (adres) bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 
+## B. Test Token'ı Alma
+Oluşturduğunuz cüzdan adresini kullanarak test token'ları (OCT) almak için resmi Octra Faucet (https://faucet.octra.network/) adresini ziyaret edin.
+
