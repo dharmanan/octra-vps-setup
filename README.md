@@ -32,8 +32,9 @@ curl -fsSL [https://bun.sh/install](https://bun.sh/install) | bash
 export PATH="$HOME/.bun/bin:$PATH"
 ```
 
-Cüzdan oluşturucu betiğini çalıştırın
+Cüzdan oluşturucu işlemini çalıştırın
 ```bash
 curl -fsSL [https://octra.org/wallet-generator.sh](https://octra.org/wallet-generator.sh) | bash
 ```
+Kaydetmeniz Gerekenler: Ekranda çıkan `priv` (özel anahtar) ve `addr` (adres) bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 
