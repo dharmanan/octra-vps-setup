@@ -71,17 +71,19 @@ pip install -r requirements.txt
 cp wallet.json.example wallet.json
 ```
 
-**wallet.json Dosyasını Düzenleyin:**
+**`wallet.json` Dosyasını Düzenleyin:**
 
 `nano wallet.json` komutunu kullanarak dosyayı açın ve daha önce aldığımız kendi cüzdan bilgilerinizle değiştirin:
 
-** JSON içeriği böyle görünecek:
+** JSON içeriği böyle görünecek:**
+"priv": "buraya aldığınız keyi yazacaksın"
+"addr": "buraya da sana verilen cüzdan adresini yazacaksın"
 
 ```bash
 {
   "priv": "B64-private-key-buraya",
   "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  "rpc": "[https://octra.network](https://octra.network)"
+  "rpc": "https://octra.network"
 }
 ```
 **(Nano'da: Kaydetmek için Ctrl + O sonra dosyayı kaydetmek için Enter'a basın ve çıkmak için Ctrl + X)**
@@ -108,6 +110,4 @@ Screen oturumunun içindeyken (yeni terminal penceresi açılacak):
 
 İstemcinin arka planda çalışmaya devam etmesi için, klavyenizde Ctrl + A tuşlarına basın, hemen ardından D tuşuna basın. Bu, sizi ana terminal oturumunuza geri döndürecektir. Artık sunucu bağlantınızı kapatsanız bile arkada çalışmaya devam edecektir.
 
-## B. Test Token'ı Alma
-Oluşturduğunuz cüzdan adresini kullanarak test token'ları (OCT) almak için resmi Octra Faucet (https://faucet.octra.network/) adresini ziyaret edin.
 
