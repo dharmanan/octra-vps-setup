@@ -40,7 +40,6 @@ Kaydetmeniz Gerekenler: Ekranda çıkan `priv` (özel anahtar) ve `addr` (adres)
 
 ## 3. İstemci Kurulumu ve Yapılandırması
 
-Bu adımları VPS terminalinizde gerçekleştirin:
 
 **İstemci Deposunu Klonlayın:**
 
