@@ -39,7 +39,7 @@ export PATH="$HOME/.bun/bin:$PATH"
 
 Cüzdan oluşturucu işlemini çalıştırın
 ```bash
-curl -fsSL [https://octra.org/wallet-generator.sh](https://octra.org/wallet-generator.sh) | bash
+curl -fsSL https://octra.org/wallet-generator.sh | bash
 ```
 Kaydetmeniz Gerekenler: Ekranda çıkan `priv` (özel anahtar) ve `addr` (adres) bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 
