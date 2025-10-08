@@ -141,6 +141,8 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 * Onaylamak için Y yazın ve Enter'a basın.
 
+[![Octra Görseli](images/5.2.png)](#)
+
 **5.3. Bakiyeyi Şifreleme (Encrypt Balance)**    
 
 * 4 yazın ve Enter'a basın.
@@ -148,6 +150,8 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 * Miktarı girin ve Enter'a basın.
 
 * Onaylamak için Y yazın ve Enter'a basın.
+
+[![Octra Görseli](images/5.3.png)](#)
 
 **5.4. Şifreli İşlem Gönderme (Send Encrypted Transaction)**   
 
@@ -159,19 +163,25 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 * Onaylamak için Y yazın ve Enter'a basın.
 
+[![Octra Görseli](images/5.4.png)](#)
+
 **5.5. Bakiyeyi Çözme (Decrypt Balance)**    
 
 * 5 yazın ve Enter'a basın.
 
 * Miktarı girin ve Enter'a basın.
 
-* Onaylamak için Y yazın ve Enter'a basın.    
+* Onaylamak için Y yazın ve Enter'a basın.
+
+[![Octra Görseli](images/5.5.png)](#)
 
 **5.6. Özel Transferi Talep Etme (Claim Private Transfer)**    
 
 * 7 yazın ve Enter'a basın.
 
 * Listeden transfer numarasını seçin ve Enter'a basın.
+
+[![Octra Görseli](images/5.6.png)](#)
 
 ---
 
