@@ -1,7 +1,7 @@
 
 # Octra Testnet İstemcisi VPS Kurulum Rehberi
 
-Bu rehber, Octra Testnet istemcisini bir Sanal Özel Sunucu (VPS) üzerine kurmak, yapılandırmak ve **GNU Screen** kullanarak SSH oturumundan bağımsız olarak arka planda çalıştırmak için gerekli adımları özetler.
+Bu rehber, Octra Testnet istemcisini bir Sanal Özel Sunucu (VPS) üzerine kurmak, yapılandırmak ve **Screen** kullanarak SSH oturumundan bağımsız olarak arka planda çalıştırmak için gerekli adımları özetler.
 
 [![Octra Görseli](images/octra.jpeg)](#)
 
@@ -23,8 +23,7 @@ sudo apt update && sudo apt install screen -y
 ```
 
 ## 2. Cüzdan Oluşturma ve Test Token'ı Alma
-A. Cüzdan Oluşturma
-Bu adımı VPS terminalinizde üzerinde yapmalısınız.
+A. Cüzdan Oluşturma        
 
 Gerekli ise bun paket yöneticisini kurun
 ```bash
@@ -117,7 +116,7 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 [![Octra Görseli](images/5.png)](#)
 
-**5.1. Normal İşlem Gönderme (Regular Transaction)**
+**5.1. Normal İşlem Gönderme (Send Transaction)**
 
 * 1 yazın ve Enter'a basın.
 
@@ -131,7 +130,7 @@ Screen içinde istemci çalıştırıldığında ( `./run.sh ile`), aşağıdaki
 
 [![Octra Görseli](images/5.1.png)](#)
 
-**5.2. Toplu Gönderme (Bulk Send)**   
+**5.2. Toplu Gönderme (Multi Send)**   
 
 * 3 yazın ve Enter'a basın.
 
