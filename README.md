@@ -95,6 +95,8 @@ cd octra_pre_client
 
 ```bash
 sudo apt install python3-venv -y
+```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
