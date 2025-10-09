@@ -86,6 +86,10 @@ bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 sudo ufw delete allow 8888/tcp
 ```
 
+## Test Token Alma   
+
+https://faucet.octra.network/ buradan talep edebilirsiniz ama sorunlu çalışıyor, bunun yerine https://discord.gg/4fS9Tf8r discorduna girip **"tokens-for-sharing"** kanalında cüzdan adresinizi yazarak size atmalarını isteyebilirsiniz. Bu hem test edenler için iyi hem de sizin için zira siz de aynı şeyi yapacaksınız. Token bulamazsanız X hesabımda https://x.com/KohenEric/status/1976169506071277971 gönderinin altına cüzdan adresinizi yazın, karşılıklı transferlerle hem ürün test sayımızı arttırır hem de yardımlaşmış oluruz.  
+
 ## 3. İstemci Kurulumu ve Yapılandırması
 
 
