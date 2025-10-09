@@ -62,6 +62,12 @@ Bu aşama Ctrl + C'ye basarak durdurun ve tarayıcınızda erişim sağlamak iç
 sudo ufw allow 8888/tcp
 ```
 
+**Güvenlik duvarı açıldıktan sonra cüzdan sunucusunu tekrar başlatın:**
+
+```bash
+/root/.octra/wallet-generator
+```
+
 **B. Tarayıcı Erişimi:**
 
 Kendi tarayıcınızı açın ve VPS'inizin IP adresini kullanarak bağlanın:
