@@ -10,10 +10,10 @@ Bu kurulum, Octra tarafından sağlanan komutlara dayanır ve testnet katılım�
 
 ---
 
-## 1. Ön Koşullar (VPS)
+## 1. Gereksinimler (VPS)
 
 * **İşletim Sistemi:** Yeni bir Linux tabanlı VPS (Ubuntu 22.04+ veya Debian önerilir).
-* **Erişim:** VPS'inize SSH ile erişim.
+* **Donanım:** 2VCPU - 2GB RAM - 40GB depolama gibi düşük donanım yeterli
 * **Gereksinimler:** Python 3, `git`, `pip` ve **`screen`** yüklü olmalıdır.
 
 Eğer `screen` yüklü değilse, aşağıdaki komutla kurabilirsiniz (Debian/Ubuntu için):
