@@ -76,7 +76,8 @@ http://SUNUCU-IP-ADRESI:8888
 
 [![Octra Görseli](images/walt.png)](#)
 
-Ekranda çıkan bilgileri kaydedin, **kaybetmeyin**, bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
+Generate new wallet butonuna basın ve ekranda çıkan bilgileri kaydedin, **kaybetmeyin**,    
+bilgilerini **KESİNLİKLE** güvenli bir yere kaydedin.
 
 **C. Portu Kapatma (ÖNEMLİ):**
 
