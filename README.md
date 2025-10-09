@@ -84,11 +84,6 @@ Ekranda çıkan bilgileri kaydedin, **kaybetmeyin**, bilgilerini **KESİNLİKLE*
 ```bash
 sudo ufw delete allow 8888/tcp
 ```
-**Güvenlik duvarı açıldıktan sonra cüzdan sunucusunu tekrar başlatın:**
-
-```bash
-/root/.octra/wallet-generator
-```
 
 ## 3. İstemci Kurulumu ve Yapılandırması
 
