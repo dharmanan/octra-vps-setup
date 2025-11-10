@@ -6,7 +6,7 @@ Bu rehber, Octra Testnet istemcisini bir Sanal Özel Sunucu (VPS) üzerine kurma
 [![Octra Görseli](images/octra.jpeg)](#)
 
 ## ⚠️ ÖNEMLİ UYARI
-Bu kurulum, Octra tarafından sağlanan komutlara dayanır ve testnet katılımı amaçlıdır. Cüzdan özel anahtarlarınızı (priv) her zaman güvenli bir yerde saklayın.
+Bu kurulum, Octra tarafından sağlanan komutlara dayanır ve testnet katılımı amaçlıdır. Cüzdan özel anahtarlarınızı (private key) her zaman güvenli bir yerde saklayın.
 
 ---
 
