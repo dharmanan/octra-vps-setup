@@ -26,7 +26,7 @@ sudo apt install unzip -y
 ## 2. Cüzdan Oluşturma ve Test Token'ı Alma
 A. Cüzdan Oluşturma        
 
-Gerekli ise bun paket yöneticisini kurun
+Gerekli ise bun paket yöneticisini kurun:
 ```bash
 curl -fsSL https://bun.sh/install | bash
 ```
@@ -37,7 +37,7 @@ PATH Değişkenini Güncelleyin:
 export PATH="$HOME/.bun/bin:$PATH"
 ```
 
-Cüzdan oluşturucu işlemini çalıştırın
+Cüzdan oluşturucu işlemini çalıştırın:
 ```bash
 curl -fsSL https://octra.org/wallet-generator.sh | bash
 ```
